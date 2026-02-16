@@ -1,0 +1,85 @@
+{
+  "curriculumId": "ai-thinking-os",
+  "title": "AI時代の思考OSアップデート",
+  "description": "AIを使って思考の解像度を上げるための共通土台カリキュラム。曖昧な依頼を分解し、日本語の設計図を作り、仕様変更に耐える力を養います。",
+  "chapters": [
+    {
+      "id": "unit0",
+      "title": "Unit 0: ガイドと評価軸",
+      "items": [
+        {
+          "id": "course-guide",
+          "title": "コースガイド：AI時代の思考OSアップデート",
+          "path": "chapters/00-course-guide.md",
+          "estimatedMinutes": 45,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "unit1",
+      "title": "Unit 1: PHASE 1 構造化解体（分解の儀）",
+      "items": [
+        {
+          "id": "phase1-structure-decomposition",
+          "title": "PHASE 1：曖昧な依頼を実行可能タスクに分解する",
+          "path": "chapters/01-phase1-structure-decomposition.md",
+          "estimatedMinutes": 180,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit2",
+      "title": "Unit 2: PHASE 2 調査の技術（仮説と検証）",
+      "items": [
+        {
+          "id": "phase2-research-hypothesis-validation",
+          "title": "PHASE 2：知らないことを調査し、意思決定する",
+          "path": "chapters/02-phase2-research-hypothesis-validation.md",
+          "estimatedMinutes": 240,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit3",
+      "title": "Unit 3: PHASE 3 ロジック設計（擬似コード化）",
+      "items": [
+        {
+          "id": "phase3-logic-design",
+          "title": "PHASE 3：処理順序と条件分岐を日本語で設計する",
+          "path": "chapters/03-phase3-logic-design.md",
+          "estimatedMinutes": 240,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit4",
+      "title": "Unit 4: PHASE 4 ストレスリハーサル（破壊と再構築）",
+      "items": [
+        {
+          "id": "phase4-stress-rehearsal",
+          "title": "PHASE 4：仕様変更に耐える設計へ再構築する",
+          "path": "chapters/04-phase4-stress-rehearsal.md",
+          "estimatedMinutes": 240,
+          "hasAssignment": true
+        }
+      ]
+    },
+    {
+      "id": "unit5",
+      "title": "Unit 5: Git接続ゲート",
+      "items": [
+        {
+          "id": "gate-to-git",
+          "title": "最終ゲート：Gitカリキュラムに進むための完了判定",
+          "path": "chapters/05-gate-to-git.md",
+          "estimatedMinutes": 120,
+          "hasAssignment": true
+        }
+      ]
+    }
+  ]
+}
