@@ -38,7 +38,7 @@
           "title": "第2章：要件整理の極意（5W1H × As-Is/To-Be）",
           "path": "chapters/02_Requirement_Definition.md",
           "estimatedMinutes": 60,
-          "hasAssignment": true
+          "hasAssignment": false
         }
       ]
     },
@@ -51,7 +51,7 @@
           "title": "第3章：AIとの壁打ち・共創（要件をぶつけて磨く）",
           "path": "chapters/03_Co-Creation_with_AI.md",
           "estimatedMinutes": 60,
-          "hasAssignment": true
+          "hasAssignment": false
         }
       ]
     },
@@ -64,7 +64,7 @@
           "title": "第4章：無限の最適化と自走マインド",
           "path": "chapters/04_Self_Driving.md",
           "estimatedMinutes": 45,
-          "hasAssignment": true
+          "hasAssignment": false
         }
       ]
     },
@@ -77,7 +77,7 @@
           "title": "付録：実践ワークシート（コピー＆ペースト用）",
           "path": "chapters/05_Worksheets_Template.md",
           "estimatedMinutes": 30,
-          "hasAssignment": true
+          "hasAssignment": false
         }
       ]
     }
