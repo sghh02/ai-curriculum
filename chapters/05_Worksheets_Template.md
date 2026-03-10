@@ -4,6 +4,16 @@
 
 ---
 
+## 【共通成果物テンプレート】
+
+このカリキュラムでは、次の3ファイルを育てながら進めるのを推奨します。
+
+- [thinking-os-canvas.md](../templates/thinking-os-canvas.md)
+- [design-spec.md](../templates/design-spec.md)
+- [design-change-log.md](../templates/design-change-log.md)
+
+最初は `thinking-os-canvas.md` で輪郭を揃え、次に `design-spec.md` で詳細化し、判断変更が出たら `design-change-log.md` に残してください。
+
 ## 【テンプレートA：アイデア発想型（企画立案・ブレスト）】
 
 ### ▼ 記入例（完成イメージ）
@@ -129,3 +139,10 @@
 1. 自分の課題に最も近いテンプレートを選び、`[例：〜]` の部分を書き換えてください。
 2. そのままAI（ChatGPTやClaudeなど）に送信してください。
 3. 出てきた回答に対して、上の「壁打ちフレーズ集」を使ってラリー（壁打ち）を続けてください。
+
+---
+
+## 完了記録
+
+この章には提出課題はありません。
+学習が完了したら、スプレッドシートに **完了日** のみ記入してください。

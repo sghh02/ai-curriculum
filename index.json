@@ -1,7 +1,7 @@
 {
   "curriculumId": "ai-thinking-os",
-  "title": "AI時代に腐らない『思考と要件整理』カリキュラム",
-  "description": "AIを使いこなすためのマインドセットと要件整理の型を身につけ、AIとの共創を通じて自走力を高める実践カリキュラム。",
+  "title": "AI時代の思考OSアップデート",
+  "description": "AIを使いこなすためのマインドセットと要件整理の型を身につけ、小さく作りながら学ぶ時代の自走力を育てる共通土台カリキュラム。",
   "chapters": [
     {
       "id": "chapter0",
@@ -9,9 +9,9 @@
       "items": [
         {
           "id": "intro-readme",
-          "title": "AI時代に腐らない『思考と要件整理』のカリキュラム",
+          "title": "AI時代の思考OSアップデート",
           "path": "chapters/00_README.md",
-          "estimatedMinutes": 15,
+          "estimatedMinutes": 20,
           "hasAssignment": false
         }
       ]
@@ -37,7 +37,7 @@
           "id": "requirement-definition",
           "title": "第2章：要件整理の極意（5W1H × As-Is/To-Be）",
           "path": "chapters/02_Requirement_Definition.md",
-          "estimatedMinutes": 60,
+          "estimatedMinutes": 75,
           "hasAssignment": false
         }
       ]
@@ -50,7 +50,7 @@
           "id": "co-creation-with-ai",
           "title": "第3章：AIとの壁打ち・共創（要件をぶつけて磨く）",
           "path": "chapters/03_Co-Creation_with_AI.md",
-          "estimatedMinutes": 60,
+          "estimatedMinutes": 75,
           "hasAssignment": false
         }
       ]
@@ -63,7 +63,7 @@
           "id": "self-driving",
           "title": "第4章：無限の最適化と自走マインド",
           "path": "chapters/04_Self_Driving.md",
-          "estimatedMinutes": 45,
+          "estimatedMinutes": 60,
           "hasAssignment": false
         }
       ]
@@ -76,7 +76,7 @@
           "id": "worksheets-template",
           "title": "付録：実践ワークシート（コピー＆ペースト用）",
           "path": "chapters/05_Worksheets_Template.md",
-          "estimatedMinutes": 30,
+          "estimatedMinutes": 40,
           "hasAssignment": false
         }
       ]
