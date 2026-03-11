@@ -8,9 +8,9 @@
 
 このカリキュラムでは、次の3ファイルを育てながら進めるのを推奨します。
 
-- [thinking-os-canvas.md](../templates/thinking-os-canvas.md)
-- [design-spec.md](../templates/design-spec.md)
-- [design-change-log.md](../templates/design-change-log.md)
+- [思考OSキャンバス](../templates/thinking-os-canvas.md)
+- [設計書テンプレート](../templates/design-spec.md)
+- [設計変更ログ](../templates/design-change-log.md)
 
 最初は `thinking-os-canvas.md` で輪郭を揃え、次に `design-spec.md` で詳細化し、判断変更が出たら `design-change-log.md` に残してください。
 

@@ -75,7 +75,7 @@ AIに期待する成果物の形を具体的に示します。
 - 不明点
 - 最初の30分でやること
 
-テンプレートは [thinking-os-canvas.md](../templates/thinking-os-canvas.md) を使ってください。
+テンプレートは [思考OSキャンバス](../templates/thinking-os-canvas.md) を使ってください。
 
 ## 3. なぜ「手段（How）」はAIに任せるのか？
 目的と現状・制約が明確になれば、そのギャップを埋める手段（How）は、AIが無限に計算してくれます。

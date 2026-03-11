@@ -33,15 +33,15 @@ AIモデルは数ヶ月単位で進化し、昨日まで使えていたツール
 
 このコースでは、次の3つを育てながら進めます。
 
-1. `thinking-os-canvas.md`
-2. `design-spec.md`
-3. `design-change-log.md`
+1. 思考OSキャンバス（`thinking-os-canvas.md`）
+2. 設計書テンプレート（`design-spec.md`）
+3. 設計変更ログ（`design-change-log.md`）
 
 テンプレートは次を参照してください。
 
-- [thinking-os-canvas.md](../templates/thinking-os-canvas.md)
-- [design-spec.md](../templates/design-spec.md)
-- [design-change-log.md](../templates/design-change-log.md)
+- [思考OSキャンバス](../templates/thinking-os-canvas.md)
+- [設計書テンプレート](../templates/design-spec.md)
+- [設計変更ログ](../templates/design-change-log.md)
 
 ## 6. プログラム構成
 本プログラムは以下のステップで進行します。
