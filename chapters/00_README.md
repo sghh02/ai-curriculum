@@ -31,19 +31,21 @@ AIモデルは数ヶ月単位で進化し、昨日まで使えていたツール
 
 ## 5. 必須成果物
 
-このコースでは、次の3つを育てながら進めます。curriculumViewerアプリから参照しやすいように、**リソースID** と **パス** を固定で示します。
+このコースでは、次の3つを育てながら進めます。
 
-| 成果物 | リソースID | パス |
-|---|---|---|
-| 思考OSキャンバス | `thinking-os-canvas` | `templates/thinking-os-canvas.md` |
-| 設計書テンプレート | `design-spec` | `templates/design-spec.md` |
-| 設計変更ログ | `design-change-log` | `templates/design-change-log.md` |
+テンプレート：
 
-テンプレート参照リンク：
+```text
+{{ templates.templateConstants.thinkingOsCanvas }}
+```
 
-- [思考OSキャンバス](../templates/thinking-os-canvas.md) （パス: `templates/thinking-os-canvas.md`）
-- [設計書テンプレート](../templates/design-spec.md) （パス: `templates/design-spec.md`）
-- [設計変更ログ](../templates/design-change-log.md) （パス: `templates/design-change-log.md`）
+```text
+{{ templates.templateConstants.designSpec }}
+```
+
+```text
+{{ templates.templateConstants.designChangeLog }}
+```
 
 ## 6. プログラム構成
 本プログラムは以下のステップで進行します。

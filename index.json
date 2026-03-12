@@ -6,20 +6,23 @@
     {
       "id": "thinking-os-canvas",
       "title": "思考OSキャンバス",
-      "path": "templates/thinking-os-canvas.md",
-      "kind": "template"
+      "path": "templates/template-constants.json",
+      "kind": "template",
+      "constantKey": "thinkingOsCanvas"
     },
     {
       "id": "design-spec",
       "title": "設計書テンプレート",
-      "path": "templates/design-spec.md",
-      "kind": "template"
+      "path": "templates/template-constants.json",
+      "kind": "template",
+      "constantKey": "designSpec"
     },
     {
       "id": "design-change-log",
       "title": "設計変更ログ",
-      "path": "templates/design-change-log.md",
-      "kind": "template"
+      "path": "templates/template-constants.json",
+      "kind": "template",
+      "constantKey": "designChangeLog"
     }
   ],
   "chapters": [
