@@ -25,6 +25,15 @@ const knownPaths = new Set([
   ...resourcePathToTitle.keys(),
 ]);
 
+
+const templatePlaceholderPattern = /\{\{\s*templates\.templateConstants\.([A-Za-z0-9_]+)\s*\}\}/g;
+const usedTemplateConstantKeys = new Map();
+const declaredTemplateConstantKeys = new Set(
+  resources
+    .filter(resource => resource.path === "templates/template-constants.json" && typeof resource.constantKey === "string")
+    .map(resource => resource.constantKey)
+);
+
 const readFileSafe = async relativePath => {
   const absolutePath = path.join(rootDir, relativePath);
   try {
@@ -57,6 +66,14 @@ for (const item of items) {
 
   const content = await readFileSafe(item.path);
   if (!content) continue;
+
+  for (const match of content.matchAll(templatePlaceholderPattern)) {
+    const key = match[1];
+    if (!usedTemplateConstantKeys.has(key)) {
+      usedTemplateConstantKeys.set(key, new Set());
+    }
+    usedTemplateConstantKeys.get(key).add(item.path);
+  }
 
   if (item.hasAssignment) {
     if (!extractH2Section(content, "課題提出")) {
@@ -133,6 +150,21 @@ for (const resource of resources) {
     } catch {
       errors.push(`invalid JSON: ${resource.path}`);
     }
+  }
+}
+
+
+for (const [key, paths] of usedTemplateConstantKeys.entries()) {
+  if (!declaredTemplateConstantKeys.has(key)) {
+    errors.push(
+      `template constant key \`${key}\` is used in ${Array.from(paths).join(", ")} but not declared in index.json resources`
+    );
+  }
+}
+
+for (const key of declaredTemplateConstantKeys) {
+  if (!usedTemplateConstantKeys.has(key)) {
+    warnings.push(`template constant key \`${key}\` is declared in index.json but not referenced in any chapter file`);
   }
 }
 
