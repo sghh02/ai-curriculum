@@ -6,6 +6,8 @@
 node scripts/validate-index.mjs
 ```
 
+The validation script also checks template constant key consistency between chapter placeholders and `index.json` resources.
+
 
 ## Resolve template constants
 
