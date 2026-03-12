@@ -117,20 +117,22 @@ for (const resource of resources) {
   await readFileSafe(resource.path);
 }
 
-const templatesDir = path.join(rootDir, "templates");
-const templateFiles = (await fs.readdir(templatesDir))
-  .filter(name => name.endsWith(".md"))
-  .map(name => `templates/${name}`);
+for (const resource of resources) {
+  if (resource.path === "templates/template-constants.json") {
+    if (!resource.constantKey || typeof resource.constantKey !== "string") {
+      errors.push(`${resource.id || resource.title}: constantKey is required for template-constants resources`);
+      continue;
+    }
 
-for (const templatePath of templateFiles) {
-  if (!resourcePathToTitle.has(templatePath)) {
-    errors.push(`Unregistered template resource: ${templatePath}`);
-  }
-}
-
-for (const resourcePath of resourcePathToTitle.keys()) {
-  if (!templateFiles.includes(resourcePath)) {
-    errors.push(`Registered resource does not exist in templates/: ${resourcePath}`);
+    try {
+      const constantsRaw = await fs.readFile(path.join(rootDir, resource.path), "utf8");
+      const constantsJson = JSON.parse(constantsRaw);
+      if (!(resource.constantKey in constantsJson)) {
+        errors.push(`${resource.id || resource.title}: constantKey \`${resource.constantKey}\` not found in ${resource.path}`);
+      }
+    } catch {
+      errors.push(`invalid JSON: ${resource.path}`);
+    }
   }
 }
 

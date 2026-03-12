@@ -6,13 +6,25 @@
 
 ## 【共通成果物テンプレート】
 
-このカリキュラムでは、次の3ファイルを育てながら進めるのを推奨します。
+このカリキュラムでは、次の3テンプレートを使います。
 
-- [思考OSキャンバス](../templates/thinking-os-canvas.md)
-- [設計書テンプレート](../templates/design-spec.md)
-- [設計変更ログ](../templates/design-change-log.md)
+### 思考OSキャンバス
 
-最初は `thinking-os-canvas.md` で輪郭を揃え、次に `design-spec.md` で詳細化し、判断変更が出たら `design-change-log.md` に残してください。
+```text
+{{ templates.templateConstants.thinkingOsCanvas }}
+```
+
+### 設計書テンプレート
+
+```text
+{{ templates.templateConstants.designSpec }}
+```
+
+### 設計変更ログ
+
+```text
+{{ templates.templateConstants.designChangeLog }}
+```
 
 ## 【テンプレートA：アイデア発想型（企画立案・ブレスト）】
 
