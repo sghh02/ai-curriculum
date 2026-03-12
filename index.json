@@ -2,29 +2,7 @@
   "curriculumId": "ai-thinking-os",
   "title": "AI時代の思考OSアップデート",
   "description": "AIを使いこなすためのマインドセットと要件整理の型を身につけ、小さく作りながら学ぶ時代の自走力を育てる共通土台カリキュラム。",
-  "resources": [
-    {
-      "id": "thinking-os-canvas",
-      "title": "思考OSキャンバス",
-      "path": "templates/template-constants.json",
-      "kind": "template",
-      "constantKey": "thinkingOsCanvas"
-    },
-    {
-      "id": "design-spec",
-      "title": "設計書テンプレート",
-      "path": "templates/template-constants.json",
-      "kind": "template",
-      "constantKey": "designSpec"
-    },
-    {
-      "id": "design-change-log",
-      "title": "設計変更ログ",
-      "path": "templates/template-constants.json",
-      "kind": "template",
-      "constantKey": "designChangeLog"
-    }
-  ],
+  "resources": [],
   "chapters": [
     {
       "id": "chapter0",
