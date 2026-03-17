@@ -1,7 +1,7 @@
 {
   "curriculumId": "ai-thinking-os",
-  "title": "AI時代の思考OSアップデート",
-  "description": "AIを使いこなすためのマインドセットと要件整理の型を身につけ、小さく作りながら学ぶ時代の自走力を育てる共通土台カリキュラム。",
+  "title": "AI思考OSで学ぶ エンジニアへの進み方",
+  "description": "初心者がAIを使いながら、自分のテーマを見つけ、始める前に整理し、最適な進め方で小さく試しながらエンジニアに近づくための学習プログラム。",
   "resources": [],
   "chapters": [
     {
@@ -10,7 +10,7 @@
       "items": [
         {
           "id": "intro-readme",
-          "title": "AI時代の思考OSアップデート",
+          "title": "AI思考OSで学ぶ エンジニアへの進み方",
           "path": "chapters/00_README.md",
           "estimatedMinutes": 20,
           "hasAssignment": false
@@ -19,63 +19,76 @@
     },
     {
       "id": "chapter1",
-      "title": "第1章: マインドシフト",
+      "title": "第1章: テーマを見つける",
       "items": [
         {
           "id": "mindshift",
-          "title": "第1章：マインドシフト（AIとの向き合い方を変える）",
+          "title": "第1章: テーマを見つける",
           "path": "chapters/01_Mindshift.md",
-          "estimatedMinutes": 45,
+          "estimatedMinutes": 40,
           "hasAssignment": false
         }
       ]
     },
     {
       "id": "chapter2",
-      "title": "第2章: 要件整理の極意",
+      "title": "第2章: 始める前に整理する",
       "items": [
         {
           "id": "requirement-definition",
-          "title": "第2章：要件整理の極意（5W1H × As-Is/To-Be）",
+          "title": "第2章: 始める前に整理する",
           "path": "chapters/02_Requirement_Definition.md",
-          "estimatedMinutes": 75,
-          "hasAssignment": false
-        }
-      ]
-    },
-    {
-      "id": "chapter3",
-      "title": "第3章: AIとの壁打ち・共創",
-      "items": [
-        {
-          "id": "co-creation-with-ai",
-          "title": "第3章：AIとの壁打ち・共創（要件をぶつけて磨く）",
-          "path": "chapters/03_Co-Creation_with_AI.md",
-          "estimatedMinutes": 75,
-          "hasAssignment": false
-        }
-      ]
-    },
-    {
-      "id": "chapter4",
-      "title": "第4章: 無限の最適化と自走マインド",
-      "items": [
-        {
-          "id": "self-driving",
-          "title": "第4章：無限の最適化と自走マインド",
-          "path": "chapters/04_Self_Driving.md",
           "estimatedMinutes": 60,
           "hasAssignment": false
         }
       ]
     },
     {
+      "id": "chapter3",
+      "title": "第3章: AIと進め方を決める",
+      "items": [
+        {
+          "id": "co-creation-with-ai",
+          "title": "第3章: AIと進め方を決める",
+          "path": "chapters/03_Co-Creation_with_AI.md",
+          "estimatedMinutes": 60,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "chapter4",
+      "title": "第4章: Git / 作業を安全に残す",
+      "items": [
+        {
+          "id": "self-driving",
+          "title": "第4章: Git / 作業を安全に残す",
+          "path": "chapters/04_Self_Driving.md",
+          "estimatedMinutes": 45,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
       "id": "chapter5",
+      "title": "第5章: 小さく試して学ぶ",
+      "items": [
+        {
+          "id": "programming-sprint",
+          "title": "第5章: 小さく試して学ぶ",
+          "path": "chapters/06_Programming_Sprint.md",
+          "estimatedMinutes": 120,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "chapter6",
       "title": "付録: 実践ワークシート",
       "items": [
         {
           "id": "worksheets-template",
-          "title": "付録：実践ワークシート（コピー＆ペースト用）",
+          "title": "付録: 実践ワークシート",
           "path": "chapters/05_Worksheets_Template.md",
           "estimatedMinutes": 40,
           "hasAssignment": false
