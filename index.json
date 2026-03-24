@@ -1,7 +1,7 @@
 {
   "curriculumId": "ai-thinking-os",
-  "title": "AI思考OSで学ぶ エンジニアへの進み方",
-  "description": "初心者がAIを使いながら、自分のテーマを見つけ、始める前に整理し、最適な進め方で小さく試しながらエンジニアに近づくための学習プログラム。",
+  "title": "問いから始める学び方 — エンジニアへの進み方",
+  "description": "初心者が問いを立てる力を使いながら、自分がなぜエンジニアになりたいのかを言葉にし、どんなエンジニアを目指すかを整理し、最初の一歩を小さく試すことで、自分のキャリアの要件定義と設計ができるようになる学習プログラム。",
   "resources": [],
   "chapters": [
     {
@@ -10,7 +10,7 @@
       "items": [
         {
           "id": "intro-readme",
-          "title": "AI思考OSで学ぶ エンジニアへの進み方",
+          "title": "問いから始める学び方 — エンジニアへの進み方",
           "path": "chapters/00_README.md",
           "estimatedMinutes": 20,
           "hasAssignment": false
@@ -19,12 +19,12 @@
     },
     {
       "id": "chapter1",
-      "title": "第1章: テーマを見つける",
+      "title": "第1章: なぜエンジニアになりたいのか",
       "items": [
         {
-          "id": "mindshift",
-          "title": "第1章: テーマを見つける",
-          "path": "chapters/01_Mindshift.md",
+          "id": "why-engineer",
+          "title": "第1章: なぜエンジニアになりたいのか",
+          "path": "chapters/01_Why_Engineer.md",
           "estimatedMinutes": 40,
           "hasAssignment": false
         }
@@ -32,25 +32,25 @@
     },
     {
       "id": "chapter2",
-      "title": "第2章: 始める前に整理する",
+      "title": "第2章: どんなエンジニアがいるのか",
       "items": [
         {
-          "id": "requirement-definition",
-          "title": "第2章: 始める前に整理する",
-          "path": "chapters/02_Requirement_Definition.md",
-          "estimatedMinutes": 60,
+          "id": "engineer-roles",
+          "title": "第2章: どんなエンジニアがいるのか",
+          "path": "chapters/02_Engineer_Roles.md",
+          "estimatedMinutes": 50,
           "hasAssignment": false
         }
       ]
     },
     {
       "id": "chapter3",
-      "title": "第3章: AIと進め方を決める",
+      "title": "第3章: 自分の方向性を整理する",
       "items": [
         {
-          "id": "co-creation-with-ai",
-          "title": "第3章: AIと進め方を決める",
-          "path": "chapters/03_Co-Creation_with_AI.md",
+          "id": "define-direction",
+          "title": "第3章: 自分の方向性を整理する",
+          "path": "chapters/03_Define_Direction.md",
           "estimatedMinutes": 60,
           "hasAssignment": false
         }
@@ -58,25 +58,25 @@
     },
     {
       "id": "chapter4",
-      "title": "第4章: Git / 作業を安全に残す",
+      "title": "第4章: AIと最初の一歩を決める",
       "items": [
         {
-          "id": "self-driving",
-          "title": "第4章: Git / 作業を安全に残す",
-          "path": "chapters/04_Self_Driving.md",
-          "estimatedMinutes": 45,
+          "id": "first-step-with-ai",
+          "title": "第4章: AIと最初の一歩を決める",
+          "path": "chapters/04_First_Step_with_AI.md",
+          "estimatedMinutes": 60,
           "hasAssignment": false
         }
       ]
     },
     {
       "id": "chapter5",
-      "title": "第5章: 小さく試して学ぶ",
+      "title": "第5章: 小さく試して確かめる",
       "items": [
         {
-          "id": "programming-sprint",
-          "title": "第5章: 小さく試して学ぶ",
-          "path": "chapters/06_Programming_Sprint.md",
+          "id": "try-and-verify",
+          "title": "第5章: 小さく試して確かめる",
+          "path": "chapters/05_Try_and_Verify.md",
           "estimatedMinutes": 120,
           "hasAssignment": false
         }
@@ -84,12 +84,25 @@
     },
     {
       "id": "chapter6",
+      "title": "第6章: 自分のエンジニア像を設計する",
+      "items": [
+        {
+          "id": "career-design",
+          "title": "第6章: 自分のエンジニア像を設計する",
+          "path": "chapters/06_Career_Design.md",
+          "estimatedMinutes": 60,
+          "hasAssignment": false
+        }
+      ]
+    },
+    {
+      "id": "appendix",
       "title": "付録: 実践ワークシート",
       "items": [
         {
           "id": "worksheets-template",
           "title": "付録: 実践ワークシート",
-          "path": "chapters/05_Worksheets_Template.md",
+          "path": "chapters/07_Worksheets_Template.md",
           "estimatedMinutes": 40,
           "hasAssignment": false
         }
