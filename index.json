@@ -1,6 +1,6 @@
 {
   "curriculumId": "ai-thinking-os",
-  "title": "問いから始める学び方 — エンジニアへの進み方",
+  "title": "AIと問いから始める学び方",
   "description": "初心者が問いを立てる力を使いながら、自分がなぜエンジニアになりたいのかを言葉にし、どんなエンジニアを目指すかを整理し、最初の一歩を小さく試すことで、自分のキャリアの要件定義と設計ができるようになる学習プログラム。",
   "resources": [],
   "chapters": [
@@ -10,7 +10,7 @@
       "items": [
         {
           "id": "intro-readme",
-          "title": "問いから始める学び方 — エンジニアへの進み方",
+          "title": "AIと問いから始める学び方",
           "path": "chapters/00_README.md",
           "estimatedMinutes": 20,
           "hasAssignment": false
