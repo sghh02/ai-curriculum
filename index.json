@@ -94,19 +94,6 @@
           "hasAssignment": false
         }
       ]
-    },
-    {
-      "id": "appendix",
-      "title": "付録",
-      "items": [
-        {
-          "id": "worksheets-template",
-          "title": "付録: 運営側の確認メモ",
-          "path": "chapters/07_Worksheets_Template.md",
-          "estimatedMinutes": 5,
-          "hasAssignment": false
-        }
-      ]
     }
   ]
 }
