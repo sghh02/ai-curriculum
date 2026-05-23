@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIと問いから始める学び方</title>
+  <meta name="description" content="カリキュラム閲覧ビューアー">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="menu-toggle" class="menu-toggle" aria-label="メニュー" aria-expanded="false">☰</button>
+    <span class="topbar-title" id="topbar-title">読み込み中…</span>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-head">
+        <h1 class="course-title" id="course-title"></h1>
+        <p class="course-desc" id="course-desc"></p>
+      </div>
+      <nav class="nav" id="nav" aria-label="章一覧"></nav>
+    </aside>
+
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+    <main class="content" id="content">
+      <article class="markdown-body" id="article"></article>
+      <nav class="pager" id="pager" aria-label="章ナビゲーション"></nav>
+    </main>
+  </div>
+
+  <!-- GFM対応のMarkdownパーサ（CDN）。コンテンツは自前のため信頼可。 -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
